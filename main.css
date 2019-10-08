@@ -176,11 +176,6 @@ a {
 
 
 @media screen and (min-width: 600px) {
-  
-  h1{
-    color:red;
-  }
-
   .project-title{
     font-family: 'Agatho';
     font-weight: 300;
