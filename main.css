@@ -97,7 +97,7 @@ h1{
   margin-left: 5%;
   margin-top: 0px;
   padding-top: 15px;
-  padding-left: 15px;
+  padding-left: 25px;
   font-size: 30px;
   color: #A66556;
 }
@@ -123,6 +123,8 @@ h1{
   margin-right: 10%;
   width:30%;
   height: auto;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px 5px lightgray;
 }
 
 .link{
