@@ -1,221 +1,113 @@
 
 
-*{
-  box-sizing: border-box;
-  background: #F2F2F2;
-  color: #09264F;
-}
-@font-face {
-  font-family: 'Agatho';
-  src: url('AgathoLight.woff2') format('woff2'),
-      url('AgathoLight.woff') format('woff');
-  font-weight: 300;
-  font-style: light;
-}
+@media only screen and (min-width: 580px) {
 
-@font-face {
-  font-family: 'Agatho';
-  src: url('AgathoRegular.woff2') format('woff2'),
-      url('AgathoRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.return{
-  font-family: 'Agatho_Light';
-  font-size: 12px;
-  margin-top:5%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-}
-
-.first-banner{
-  padding-top: 50px;
-  padding-bottom: 3%;
-}
-
-header{
-  display: flex-block;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-h3{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  display: block;
-  text-align: center;
-  align-items: center;
-  margin-left: 8%;
-  margin-right: 8%;
-}
-h1{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  font-size: 50px;
-  display: block;
-  text-align: center;
-  align-items: center;
-  color: #A66556;
-}
-
-.about-me-section{
-  margin-left: 8%;
-  margin-right:8%;
-}
-
-.about-me-title{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  display: block;
-  font-size: 30px;
-  color: #A66556;
-}
-
-.about-me-body{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  text-align: left;
-  line-height: 150%;
-  padding-bottom: 10%;
-  text-align: justify;
-}
-
-.my-work-title{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  display: block;
-  margin-left: 5%;
-  margin-top: 0px;
-  padding-top: 15px;
-  padding-left: 25px;
-  font-size: 30px;
-  color: #A66556;
-}
-
-.my-work-body{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  margin-left: 8%;
-  margin-right: 8%;
-  text-align: left;
-  line-height: 150%;
-  padding-top: 10%;
-}
-
-.profile-image{
-  width:35%;
-  height: auto;
-}
-
-.project-image{
-  float: right;
-  margin-right: 10%;
-  width:30%;
-  height: auto;
-  border-radius: 25px;
-  box-shadow: 2px 2px 10px 5px lightgray;
-}
-
-.link{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  margin-left: 8%;
-  text-align: left;
-  line-height: 150%;
-  padding-bottom: 50px;
-}
-
-.project-title{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  display: block;
-  padding-top: 15px;
-  font-size: 20px;
-  margin-left: 8%;
-  margin-right: 8%;
-  color: #A66556;
-}
-
-.contact-links{
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-  margin-bottom: 10%;
-}
-
-a {
-  padding-right: 2%;
-}
-
-.contact-title{
-  font-family: 'Agatho';
-  font-weight: 300;
-  font-style: normal;
-  display: block;
-  text-align: left;
-  margin-top: 35px;
-  margin-bottom: 15px;
-  margin-left: 8%;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  font-size: 30px;
-  color: #A66556;
-}
-
-
-
-@media screen and (min-width: 600px) {
-  .project-title{
-    font-family: 'Agatho';
-    font-weight: 300;
-    font-style: normal;
-    display: block;
-    padding-top: 15px;
-    font-size: 20px;
-    margin-top: 10%;
-    margin-left: 8%;
-    margin-right: 8%;
-    color: #A66556;
+  body{
+    background-color: #272B2B;
+    color:#7CE2E2;
+    font-family: 'Assistant', sans-serif;
+    padding: 5%;
   }
-
-  .project-image{
-    margin-left: 8%;
-    width:30%;
-    height: auto;
+  h1{
+    color:white;
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    font-weight: lighter;
+    margin: 5%;
   }
-
-  .my-work-body{
-    font-family: 'Agatho';
-    font-weight: 300;
-    font-style: normal;
-    margin-left: 8%;
-    margin-right: 8%;
-    text-align: left;
+  .nav{
+    text-align: center;
+    width:100%;
+    color: white;
+    font-size: 2rem;
   }
-
-  .contact-links{
+  .navLink{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+  }
+  .first-banner{
     display: flex;
-    list-style-type: none;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-bottom: 15%;
+    margin-top: 5%;
+    font-size: 2rem;
+  }
+  .profile-image{
+    width: 25%;
+    height: auto;
+    margin-top: 5%;
+  }
+  .tag-line{
+    margin:0;
+  }
+  .section-title{
+    font-size: 2rem;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 4rem;
+  }
+  .about-me-body{
+    font-size: 2rem;
+  }
+  .my-work-section{
+    display: block;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 10% 0;
+  }
+  .project-image{
+    width: 40%;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid #272B2B;
+    float: right;
+    margin: 0 5% 5% 5%;
+  }
+  .project-title{
+    margin-bottom:5%;
+    font-size: 3rem;
+    color: white;
+  }
+  .my-work-body{
+    font-size: 2rem;
+    margin-top:0;
+    padding-right: 50%;
+  }
+  .link{
+    padding-right: 10%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .contact-image{
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+  }
+  a:visited{
+    color:#329393;
+  }
+  a:link{
+    color:white;
+  }
+  .contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30%;
+  }
+  .contact-link{
+    font-size: 3rem;
   }
 
 }
-
-
-
-
-

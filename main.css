@@ -1,8 +1,9 @@
+/* Mobile Styling */
+
 body{
-  background-color: #121414;
-  color:#329393;
+  background-color: #7CE2E2;
+  color:#272B2B;
   font-family: 'Assistant', sans-serif;
-  border: 2px solid #272B2B;
   padding: 5%;
 }
 h1{
@@ -14,7 +15,7 @@ h1{
 .nav{
   text-align: center;
   width:100%;
-  color: #7CE2E2;
+  color: #272B2B;
 }
 .navLink{
   margin-left: 5%;
@@ -40,11 +41,11 @@ h1{
 }
 .section-title{
   font-size: 2rem;
-  color:#7CE2E2;
+  color: #272B2B;
   font-family: 'Anton', sans-serif;
   font-weight: lighter;
   margin-top: 15%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .my-work-section{
   display: block;
@@ -64,6 +65,7 @@ h1{
 .project-title{
   margin-bottom:5%;
   color: white;
+  font-size: 1.25rem;
 }
 .my-work-body{
   font-size: 1rem;
@@ -81,10 +83,10 @@ h1{
   margin-top: 15%;
 }
 a:visited{
-  color:#7CE2E2;
+  color:#329393;
 }
 a:link{
-  color:#7CE2E2;
+  color:#272B2B;
 }
 .contact-section{
   display: flex;
