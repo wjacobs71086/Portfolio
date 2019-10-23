@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="/Assets/agatho/Agatho_Regular.otf" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <nav class="return">Wesley Jacobs</nav>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Assistant&display=swap" rel="stylesheet">    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+    <nav class="nav">
+      <a href="#aboutMe" class="navLink">About me</a>
+      <a href="#myWork" class="navLink">My work</a>
+      <a href="#contactMe" class="navLink">Contact me</a>
+    </nav>
+
+<body>
+
 
     <main role="main" class="scroll-container">
       <header >
         <div class="first-banner">
-          <img class="profile-image" src="./Assets/2c51d1e250d64a454b1d4b1d4f37aebb-sticker.png" alt="Emoji Photo">
+          <img class="profile-image" src="./Assets/Headshot_smile" alt="Emoji Photo">
           <h1>Hi I'm Wesley,</h1>
-            <h3>I'm a software developer who loves people, dogs, and a good story.</h3>
+            <h3 class="tag-line">I'm a software developer who loves people, dogs, and a good story.</h3>
         </div>
       </header>
-
-      <section class="about-me-section">
-        <h4 class="about-me-title">About Me</h4>
+      
+      <section class="about-me-section" id="aboutMe">
+        <h4 class="section-title">About Me</h4>
           <p class="about-me-body">
             My earliest memory of being captivated by the world of technology dates back to middle school 
             when I was gifted a computer for my birthday. I found myself absorbed with intrigue and would spend 
@@ -35,8 +42,8 @@
             growing field where I can be challenged and invigorated by the work created or produced. </p>
       </section>
 
-      <section class="my-work-section">
-        <h4 class="my-work-title">My Work</h4>
+      <section class="my-work-section" id="myWork">
+        <h4 class="section-title">My Work</h4>
         <img class="project-image" src="./Assets/test.png" alt="BookmarksApp banner">
           <p class="project-title">My BookmarksApp</p>
           <p class="my-work-body"> This is an app for creating and managing a personal 
@@ -48,12 +55,13 @@
             <a class="link" href="https://thinkful-ei-heron.github.io/BookMark-App/" target="newtab">Live Site</a>
       </section>
 
-      <section>
-        <h4 class="contact-title">Let's chat</h4>
+      <section class="contact-section" id="contactMe">
+        <img class="contact-image" src="./Assets/thumbsUp.png" alt="Emoji Photo">
+        <h4 class="section-title">Let's chat</h4>
         <div class="contact-links">
-          <a id="mailto" href="mailto:w.jacobs.632@gmail.com" target="newtab">Email w.jacobs.632@gmail.com</a>
-          <a href="https://github.com/wjacobs71086" target="newtab">GitHub</a>
-          <a href="https://www.linkedin.com/feed/" target="newtab">LinkedIn</a>
+          <a class="link" id="mailto" href="mailto:w.jacobs.632@gmail.com" target="newtab">w.jacobs.632@gmail.com</a>
+          <a class="link" href="https://github.com/wjacobs71086" target="newtab">GitHub</a>
+          <a class="link" href="https://www.linkedin.com/feed/" target="newtab">LinkedIn</a>
         </div>
       </section>
     </main>
