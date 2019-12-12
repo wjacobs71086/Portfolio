@@ -96,7 +96,10 @@
     color:#329393;
   }
   a:link{
-    color:white;
+    color: #329393;
+  }
+  a:hover{
+    color: white !important;
   }
   .contact-section{
     display: flex;
