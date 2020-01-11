@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.e74005c6.chunk.css",
-    "main.js": "/static/js/main.971d0eb8.chunk.js",
-    "main.js.map": "/static/js/main.971d0eb8.chunk.js.map",
+    "main.css": "/static/css/main.e726c46a.chunk.css",
+    "main.js": "/static/js/main.fc9c81af.chunk.js",
+    "main.js.map": "/static/js/main.fc9c81af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ef368057.js",
     "runtime-main.js.map": "/static/js/runtime-main.ef368057.js.map",
-    "static/js/2.67981b37.chunk.js": "/static/js/2.67981b37.chunk.js",
-    "static/js/2.67981b37.chunk.js.map": "/static/js/2.67981b37.chunk.js.map",
+    "static/js/2.2b158e2e.chunk.js": "/static/js/2.2b158e2e.chunk.js",
+    "static/js/2.2b158e2e.chunk.js.map": "/static/js/2.2b158e2e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0eba5dc82ad2b578147ee7a21c0e43de.js": "/precache-manifest.0eba5dc82ad2b578147ee7a21c0e43de.js",
+    "precache-manifest.1b67765c91d1199e02fb64af394598fc.js": "/precache-manifest.1b67765c91d1199e02fb64af394598fc.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e74005c6.chunk.css.map": "/static/css/main.e74005c6.chunk.css.map",
-    "static/js/2.67981b37.chunk.js.LICENSE": "/static/js/2.67981b37.chunk.js.LICENSE",
+    "static/css/main.e726c46a.chunk.css.map": "/static/css/main.e726c46a.chunk.css.map",
+    "static/js/2.2b158e2e.chunk.js.LICENSE": "/static/js/2.2b158e2e.chunk.js.LICENSE",
     "static/media/ChatBanner.png": "/static/media/ChatBanner.66cd48b0.png",
     "static/media/ChatBanner01.png": "/static/media/ChatBanner01.3e9a84f3.png",
     "static/media/IMG_0247.jpeg": "/static/media/IMG_0247.a0571a94.jpeg",
-    "static/media/MyWork01.png": "/static/media/MyWork01.bb0e30b6.png",
     "static/media/bugout_icon.jpg": "/static/media/bugout_icon.2aeb3db0.jpg",
     "static/media/headIcon.png": "/static/media/headIcon.a1b65357.png",
-    "static/media/headIconInvert.png": "/static/media/headIconInvert.d9a81a39.png",
+    "static/media/headIcon_purple.png": "/static/media/headIcon_purple.2b3ed541.png",
+    "static/media/newbannerIdea.jpeg": "/static/media/newbannerIdea.30662152.jpeg",
+    "static/media/starbackground.jpg": "/static/media/starbackground.228aa58c.jpg",
     "static/media/test.png": "/static/media/test.2a3c1940.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ef368057.js",
-    "static/js/2.67981b37.chunk.js",
-    "static/css/main.e74005c6.chunk.css",
-    "static/js/main.971d0eb8.chunk.js"
+    "static/js/2.2b158e2e.chunk.js",
+    "static/css/main.e726c46a.chunk.css",
+    "static/js/main.fc9c81af.chunk.js"
   ]
 }
