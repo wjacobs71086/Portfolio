@@ -1,0 +1,79 @@
+
+  .contactInfo {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  #mailto {
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: #35343f;
+    font-weight: 250;
+    min-width: 200px;
+    text-align: center;
+    margin: 2%;
+    overflow: hidden;
+    padding: 0.5rem 1rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+  }
+  #mailto::after {
+    background-color: #35343f;
+    border-radius: 3rem;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+  }
+  #mailto:hover::after {
+    transform: translate(0, 0);
+  }
+  #mailto:hover {
+    border: 2px solid transparent;
+    color: #f2e964;
+    transform: scale(1.05);
+    will-change: transform;
+  }
+  .contactTitle {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+  .contactBody {
+    font-size: 1rem;
+    margin: 5% 2%;
+  }
+
+@media (min-width: 400px) {
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.contactInfo {
+  margin-top: 3%;
+}
+#mailto {
+  margin-top: 5%;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.contactBody{
+  margin-top: 0;
+}
+}

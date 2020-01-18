@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffeffa;
+  font-size: 1.5rem;
+  color: #35343f;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.navLinks {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+  font-size: 1rem;
+  padding-bottom: 1%;
+  background-color: #35343fd9;
+}
+h5 {
+  margin: 2%;
+  color: #36362e;
+}
+.section-title {
+  align-self: center;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 5%;
+}
+.about-me-section {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.icon {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  width: 15%;
+  align-self: flex-start;
+  max-width: 100px;
+  height: auto;
+}
+.AboutMeIcon {
+  width: 35%;
+  align-self: center;
+  max-width: 250px;
+}
+.title {
+  color: #ffffff;
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.596);
+  margin: 1%;
+  max-width: 90vw;
+}
+.Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .parallax-banner{
+    min-width:100vw;
+  }
+@media(min-width: 400px) {
+  .title {
+    font-size: 4rem;
+  }
+
+}
