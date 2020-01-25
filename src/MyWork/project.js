@@ -3,6 +3,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import starBanner from '../starbackground.jpg'
 import bugoutIcon from '../bugout_icon.jpg'
 import bookmarkIcon from '../test.png';
+import liveList from '../liveList.png';
 import './project.css';
 import PracticingImg from '../PracticingImg.png'
 
@@ -21,12 +22,10 @@ export class Project extends Component {
           style={{ height: '300px' }}
         >
         </ParallaxBanner>
-        <section className="my-work-section" >
-          
+        <section className="my-work-section" > 
           <section className='piece'>
           <h3 className='section-title'>My Work</h3>
             <img className="project-image" src={bugoutIcon} alt="BugOutReadyApp banner" />
-
             <div className='content'>
               <h3 className="project-title">BugOut Ready</h3>
               <p className="my-work-body"> Having been born in "tornado alley" and living in "wildfire California" I've always understood
@@ -38,7 +37,20 @@ export class Project extends Component {
               </div>
             </div>
           </section>
-          
+
+          <section className='piece'>
+            <img className="project-image" src={liveList} alt="LiveListApp banner" />
+            <div className='content'>
+              <h3 className="project-title">Live List</h3>
+              <p className="my-work-body"> A project built with a team to help explore new cities and find spots only known to the locals. This app showcases React.js, SQL, RESTFUL api structures, and GoogleMap integration.</p>
+              <div className='links'>
+                <a className="link" href="https://github.com/thinkful-ei-heron/SocialPlaylist-Client.git" target="newtab">Client Repo</a>
+                <a className="link" href="https://github.com/thinkful-ei-heron/SocialPlaylist-server.git" target="newtab">Server Repo</a>
+                <a className="link" href="https://social-playlist.netlify.com" target="newtab">Live Site</a>
+              </div>
+            </div>
+          </section>
+
           <section className='piece'>
               <img className="project-image bookmark" src={bookmarkIcon} alt="Bookmark App banner" />
             <div className='content'>
