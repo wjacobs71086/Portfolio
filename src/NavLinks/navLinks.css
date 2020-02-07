@@ -6,6 +6,7 @@
   font-weight: bold;
   font-size: 1.5rem;
   cursor: pointer;
+  width: 125px;
 }
 .navLink:hover {
   color: #f2e964;
@@ -14,8 +15,6 @@
 @media (min-width: 400px) {
   .navLink {
     text-decoration: none;
-    margin: 2%;
-
     color: white;
     font-weight: bold;
     font-size: 1.5rem;

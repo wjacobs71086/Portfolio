@@ -10,17 +10,18 @@ body {
   display: flex;
   flex-direction: column;
 }
-.navLinks {
-  position: fixed;
+#navLinks {
   display: flex;
   width: 100%;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
   z-index: 1;
   font-size: 1rem;
-  padding-bottom: 1%;
-  background-color: #35343fd9;
+  background-color: #35343f;
+}
+.navLinkContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-left: 2%;
 }
 h5 {
   margin: 2%;
@@ -42,12 +43,9 @@ h5 {
   text-align: left;
 }
 .icon {
-  z-index: 1;
-  position: absolute;
-  top: 30%;
-  left: 3%;
   width: 15%;
-  align-self: flex-start;
+  order: 0;
+  margin: 1%;
   max-width: 100px;
   height: auto;
 }
@@ -77,5 +75,4 @@ h5 {
   .title {
     font-size: 4rem;
   }
-
 }
