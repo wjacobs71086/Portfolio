@@ -16,7 +16,7 @@ export class NavLinks extends Component {
     };
   }
 
-  renderScrollHeader = () => {
+  renderScrollHeader = () => {04:01 PM
     if (this.state.screenY > 0) {
       return (
         <div style={{ position: "fixed" }} className="navLinks" id="navLinks">

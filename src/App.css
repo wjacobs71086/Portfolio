@@ -5,12 +5,13 @@ body {
   background-color: #ffeffa;
   font-size: 1.5rem;
   color: #35343f;
+  width: 100vw;
 }
 .App {
   display: flex;
   flex-direction: column;
 }
-#navLinks {
+.navLinks {
   display: flex;
   width: 100%;
   z-index: 1;
@@ -43,11 +44,10 @@ h5 {
   text-align: left;
 }
 .icon {
-  width: 15%;
   order: 0;
   margin: 1%;
   max-width: 100px;
-  height: auto;
+  max-height: 100px;
 }
 .AboutMeIcon {
   width: 35%;
