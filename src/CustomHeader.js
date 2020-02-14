@@ -10,7 +10,7 @@ convertParam = (name) =>{
 
 
 switchHeader = () => {
-  if(this.props.match.params){
+  if(this.props.match.params.name){
     let input = this.props.match.params.name.replace(/_/g," ");
     let split = input.split(' ');
     for(let i = 0; i < split.length; i++){
@@ -35,7 +35,8 @@ switchHeader = () => {
     </ParallaxBanner>
     )
   } else {
-    return (<ParallaxBanner
+    return (
+    <ParallaxBanner
     className="Banner"
     layers={[
       {
