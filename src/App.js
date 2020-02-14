@@ -16,11 +16,11 @@ function App() {
       </nav>
       <Switch>
         <Route
-            path={'/:name'}
+            path={process.env.PUBLIC_URL + '/:name'}
             component={CustomHeader}
           />
         <Route
-            path={'/'}
+            path={process.env.PUBLIC_URL + '/'}
             component={CustomHeader}
           />
           </Switch>
