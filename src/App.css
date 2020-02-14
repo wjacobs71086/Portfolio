@@ -74,6 +74,8 @@ h5 {
   max-width: 90vw;
 }
 .sub{
+  margin-top: 5%;
+  font-size: 1.25rem;
   font-style: italic;
 }
 .Banner {
@@ -87,5 +89,8 @@ h5 {
 @media(min-width: 400px) {
   .title {
     font-size: 4rem;
+  }
+  .sub{
+    font-size: 2rem;
   }
 }
