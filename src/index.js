@@ -1,13 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import {ParallaxProvider} from 'react-scroll-parallax'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { ParallaxProvider } from "react-scroll-parallax";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-<ParallaxProvider>
-<App />
-</ParallaxProvider>
-, document.getElementById('root'));
-
-
+  <BrowserRouter>
+    <ParallaxProvider>
+      <App />
+    </ParallaxProvider>
+  </BrowserRouter>,
+  document.getElementById("root")
+);

@@ -7,6 +7,8 @@ import Project from "./MyWork/project";
 import starBanner from "./newbannerIdea.jpeg";
 import ContactMe from "./ContactMe/ContactMe";
 import Footer from "./Footer/Footer";
+import { Route, Switch } from 'react-router-dom'
+import CustomHeader from './CustomHeader';
 
 function App() {
   return (
@@ -14,18 +16,16 @@ function App() {
       <nav>
         <NavLinks />
       </nav>
-      <ParallaxBanner
-        className="Banner"
-        layers={[
-          {
-            image: `${starBanner}`,
-            amount: 0.5
-          }
-        ]}
-        style={{ height: "500px" }}
-      >
-        <h1 className="title">Hi, I'm Wesley</h1>
-      </ParallaxBanner>
+      <Switch>
+        <Route
+            path={'/:name'}
+            component={CustomHeader}
+          />
+        <Route
+            path={'/'}
+            component={CustomHeader}
+          />
+          </Switch>
       <main>
         <AboutMe />
         <Project />
