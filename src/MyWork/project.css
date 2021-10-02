@@ -69,7 +69,7 @@
   .link:hover {
     border: 2px solid transparent;
     color: #f2e964;
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     will-change: transform;
   }
 .bottom {
