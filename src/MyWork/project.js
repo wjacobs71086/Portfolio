@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { ParallaxBanner } from 'react-scroll-parallax';
-import starBanner from '../starbackground.jpg'
+import starBanner from '../newbannerIdea.jpeg'
 import bugoutIcon from '../bugout_icon.jpg'
 import bookmarkIcon from '../test.png';
 import liveList from '../liveList.png';
