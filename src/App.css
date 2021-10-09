@@ -53,6 +53,7 @@ h5 {
   width: 35%;
   align-self: center;
   max-width: 250px;
+  cursor: pointer;
 }
 .titleContainer {
   display: flex;
