@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { ParallaxBanner } from 'react-scroll-parallax';
 import starBanner from '../newbannerIdea.jpeg'
 import bugoutIcon from '../bugout_icon.jpg'
-import bookmarkIcon from '../test.png';
+import beerIcon from '../beerIcon.png';
 import liveList from '../liveList.png';
 import './project.css';
 import PracticingImg from '../PracticingImg.png'
@@ -52,13 +52,13 @@ export class Project extends Component {
           </section>
 
           <section className='piece'>
-              <img className="project-image bookmark" src={bookmarkIcon} alt="Bookmark App banner" />
+              <img className="project-image bookmark" src={beerIcon} alt="Beer Me Strength App banner" />
             <div className='content'>
-              <h3 className="project-title">My BookmarksApp</h3>
-              <p className="my-work-body"> This on-going project is designed to be a custom bookmark manager. I've developed this to gain a familiarity with jQuery and using vanilla JS.</p>
+              <h3 className="project-title">Beer Me Strength</h3>
+              <p className="my-work-body">This front end project is designed to be a beer journal to track your favorite beers. Developed with React.JS.</p>
               <div className='links'>
-                <a className="link" href="https://github.com/thinkful-ei-heron/BookMark-App" target="newtab">Client Repo</a>
-                <a className="link" href="https://thinkful-ei-heron.github.io/BookMark-App/" target="newtab">Live Site</a>
+                <a className="link" href="https://github.com/wjacobs71086/BeerMeStrength" target="newtab">Client Repo</a>
+                <a className="link" href="https://wjacobs71086.github.io/BeerMeStrength/" target="newtab">Live Site</a>
               </div>
             </div>
           </section>
