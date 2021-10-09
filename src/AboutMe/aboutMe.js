@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import icon from "../aboutIcons/headIcon_purple.png";
-import iconGif from "/Users/wesleyjacobs/Documents/Coding/Projects/Thinkful/portfolioproject/src/649FDB85-5B43-4BE7-8601-23BA688079F9.gif"
 import partyIcon from '../aboutIcons/partyIcon.png'
-import cussIcon from '../aboutIcons/cussIcon.png'
 import thinkingIcon from '../aboutIcons/thinkingIcon.png'
 import lightbulbIcon from '../aboutIcons/lightbulbIcon.png'
 import callMeIcon from '../aboutIcons/callMeIcon.png'
 import cloudsIcon from '../aboutIcons/cloudsIcon.png'
 import computerIcon from '../aboutIcons/computerIcon.png'
 
-let icons = [icon, partyIcon, cussIcon, thinkingIcon, lightbulbIcon, callMeIcon, cloudsIcon, computerIcon]
+let icons = [icon, partyIcon, thinkingIcon, lightbulbIcon, callMeIcon, cloudsIcon, computerIcon]
 
 export class AboutMe extends Component {
   constructor(props) {
