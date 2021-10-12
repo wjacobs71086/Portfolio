@@ -44,7 +44,7 @@ return (
             </div>
           </section>
 
-          {/* <section data-aos="slide-right" className='piece'>
+          <section data-aos="slide-right" className='piece'>
             <img className="project-image" src={liveList} alt="LiveListApp banner" />
             <div className='content'>
               <h3 className="project-title">Live List</h3>
@@ -55,7 +55,7 @@ return (
                 <a className="link" href="https://social-playlist.netlify.com" target="newtab">Live Site</a>
               </div>
             </div>
-          </section> */}
+          </section>
 
           <section data-aos="slide-left" className='piece'>
               <img className="project-image bookmark" src={beerIcon} alt="Beer Me Strength App banner" />
