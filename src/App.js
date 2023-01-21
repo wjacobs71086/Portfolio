@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks/navLinks";
 import Project from "./MyWork/project";
 import ContactMe from "./ContactMe/ContactMe";
 import Footer from "./Footer/Footer";
-import { Route, Switch } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import CustomHeader from './CustomHeader';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <nav>
         <NavLinks />
       </nav>
-      <Switch>
+      <Routes>
         <Route
             path={process.env.PUBLIC_URL + '/:name'}
             component={CustomHeader}
@@ -23,7 +23,7 @@ function App() {
             path={process.env.PUBLIC_URL + '/'}
             component={CustomHeader}
           />
-          </Switch>
+          </Routes>
       <main>
         <AboutMe />
         <Project />

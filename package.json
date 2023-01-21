@@ -4,18 +4,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "aos": "^2.3.4",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^2.1.3",
-    "react-scroll-parallax": "^2.2.0"
+    "@testing-library/jest-dom": "*",
+    "@testing-library/react": "*",
+    "@testing-library/user-event": "*",
+    "aos": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*",
+    "react-scripts": "*",
+    "react-scroll-parallax": "*"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "*"
   }
 }
